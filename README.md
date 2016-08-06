@@ -31,6 +31,12 @@ There should be a reasonable amount of flexibility using the available variables
     $ docker tag botkit-example-plugins flaccid/botkit-example-plugins
     $ docker push flaccid/botkit-example-plugins
 
+## Testing
+
+At this point, only the following:
+
+    $ npm run lint
+
 
 License and Authors
 -------------------
