@@ -10,6 +10,28 @@ Example skellington plugins for Botkit.
 
     $ npm start
 
+### Docker
+
+#### Build
+
+    $ docker build -t botkit-example-plugins .
+
+#### Run
+
+    $ docker run -it -p 8585:8585 -e SLACK_API_TOKEN=1234 botkit-example-plugins
+
+#### Runtime Environment Variables
+
+There should be a reasonable amount of flexibility using the available variables. If not please raise an issue so your use case can be covered!
+
+ (TODO)
+
+#### Tag and Push
+
+    $ docker tag botkit-example-plugins flaccid/botkit-example-plugins
+    $ docker push flaccid/botkit-example-plugins
+
+
 License and Authors
 -------------------
 - Author: Chris Fordham (<chris@fordham-nagy.id.au>)
