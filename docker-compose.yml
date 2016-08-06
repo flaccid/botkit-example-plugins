@@ -1,0 +1,8 @@
+botkit-example-plugins:
+  image: flaccid/botkit-example-plugins
+  environment:
+    SLACK_API_TOKEN: ${SLACK_API_TOKEN}
+    BOTKIT_PORT: ${BOTKIT_PORT}
+  restart: always
+  tty: true
+  stdin_open: true
