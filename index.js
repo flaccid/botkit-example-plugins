@@ -7,7 +7,7 @@ const config = {
     require('./lib/plugins/uptime.js'),
   ],
   debug: process.env.BOTKIT_DEBUG,
-  port: process.env.BOTKIT_PORT
+  port: process.env.BOTKIT_PORT || 8585
 };
 
 require('skellington')(config);
