@@ -35,3 +35,6 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# Local storage of a Slack API token (convenience)
+.slack_api_token
