@@ -24,6 +24,7 @@
   "homepage": "https://github.com/flaccid/botkit-example-plugins#readme",
   "dependencies": {
     "botkit": "^0.2.2",
+    "ejs": "^2.5.1",
     "skellington": "^0.1.1"
   }
 }

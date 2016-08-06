@@ -2,8 +2,11 @@
 
 const config = {
   plugins: [
+    require('./lib/plugins/express_static_page.js'),
     require('./lib/plugins/ping_pong.js'),
   ],
+  debug: process.env.BOTKIT_DEBUG,
+  port: process.env.BOTKIT_PORT
 };
 
 require('skellington')(config);
